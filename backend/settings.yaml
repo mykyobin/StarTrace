@@ -1,0 +1,33 @@
+# 바꿔서 비교할 값은 전부 여기에 둔다. 코드에 숫자를 박지 않는다.
+llm:
+  fast_model: claude-haiku-5-5     # 검색어 추출, 후보 선별, 조건 탐색
+  answer_model: claude-haiku-5-5   # claude-sonnet-5-5 로 바꿀 수 있지만 첫 질문이 1분 넘게 걸린 적이 있어 Haiku 를 쓴다
+  max_output_tokens: 600
+  thinking_off:                    # 추론을 끄는 값이 모델마다 다르다. Sonnet 은 disabled 를 거절하고 between_tools 를 요구한다
+    claude-haiku-5-5: disabled
+    claude-sonnet-5-5: between_tools
+embedding:
+  model: text-embedding-3-large   # 3072차원. 바꾸면 컬렉션을 지우고 다시 색인해야 한다 (scripts/index_*.py)
+prices:                   # 100만 토큰당 달러 (2026-10 기준 공개 단가). 로그에 찍는 비용 추정치 계산용
+  claude-haiku-5-5: {input: 0.10, output: 0.50}
+  claude-sonnet-5-5: {input: 2.00, output: 10.00}
+  text-embedding-3-small: {input: 0.02, output: 0}
+  text-embedding-3-large: {input: 0.13, output: 0}
+collect:
+  max_terms: 3            # 프롬프트1 이 뽑는 검색어 수
+  search_limit: 5         # 검색어 하나당 후보 수 (3 으로 줄여 봤지만 응답 시간에는 효과가 없었다)
+  max_docs: 4             # 별 하나당 처음 색인할 문서 수 (별 자체 문서 포함)
+  max_docs_total: 8       # 질문으로 추가 수집해도 이 수까지만
+  max_chars_per_doc: 10000
+chunk:
+  size: 800
+  overlap: 160
+  min_chars: 50           # 제목만 남은 조각은 근거가 안 되니 버린다
+retrieval:
+  top_k: 6
+  mode: similarity        # similarity | mmr
+  mmr_fetch_k: 30
+wiki:
+  user_agent: "StarTrace/0.1 (mykyobinlove@naver.com)"   # 위키백과 규칙상 연락처 필수
+  min_interval_sec: 1.0
+  retries: 3

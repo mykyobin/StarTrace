@@ -1,0 +1,568 @@
+{
+ "note": "천체 이미지는 NASA 공식 출처만 쓴다. url 은 키 없이 받을 수 있는 공식 주소(images-api.nasa.gov 의 원본, NASA SVS, SDO). 수성·화성은 NASA 라이브러리에 전체 지도가 없어 미국 지질조사국(USGS Astrogeology, 미 정부 공식)의 NASA 데이터 가공본을 쓴다. api.nasa.gov 계열을 쓰게 되면 NASA_API_KEY 환경변수를 쓴다. 위성 지도도 NASA(Photojournal)와 USGS Astrogeology 공식 가공본만 쓴다. status 가 check-image 인 것은 받은 뒤 화면에서 경도·여백을 확인해야 한다.",
+ "assets": {
+  "jupiter_map": {
+   "title": "Cassini's Best Maps of Jupiter (Cylindrical Map)",
+   "nasa_id": "PIA07782",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA07782",
+   "url": "https://images-assets.nasa.gov/image/PIA07782/PIA07782~orig.jpg",
+   "credit": "NASA/JPL/Space Science Institute",
+   "note": "카시니 근접 통과(2000년) 때 찍은 사진으로 만든 전체 지도예요.",
+   "local": "jupiter_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "confirmed",
+   "bytes": 446531
+  },
+  "pluto_map": {
+   "title": "Pluto Color Map",
+   "nasa_id": "PIA11707",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA11707",
+   "url": "https://images-assets.nasa.gov/image/PIA11707/PIA11707~orig.jpg",
+   "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+   "note": "뉴허라이즌스가 찍은 색 필터 사진으로 만든 전체 색 지도예요. 뒷면 일부는 관측되지 않았어요.",
+   "local": "pluto_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "confirmed",
+   "bytes": 1428736
+  },
+  "moon_map": {
+   "title": "CGI Moon Kit (LRO LROC color map)",
+   "nasa_id": "SVS-4720",
+   "page": "https://svs.gsfc.nasa.gov/4720",
+   "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_2k.jpg",
+   "credit": "NASA's Scientific Visualization Studio (LRO LROC/LOLA)",
+   "note": "달 궤도선(LRO)이 찍은 사진으로 만든 색 지도예요. 보기 좋게 다듬은 것이라 과학 분석용은 아니에요.",
+   "local": "moon_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "confirmed",
+   "bytes": 457942
+  },
+  "venus_profile": {
+   "title": "Venus from Mariner 10",
+   "nasa_id": "PIA23791",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA23791",
+   "url": "https://images-assets.nasa.gov/image/PIA23791/PIA23791~orig.jpg",
+   "credit": "NASA/JPL-Caltech",
+   "note": "마리너 10호 사진(1974)에서 구름 색을 읽어 띠 무늬로 그린 표면이에요.",
+   "local": "venus_profile.json",
+   "process": {
+    "kind": "profile",
+    "crop": "left"
+   },
+   "status": "confirmed",
+   "bytes": 94315
+  },
+  "saturn_profile": {
+   "title": "Saturn in Color",
+   "nasa_id": "PIA05389",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA05389",
+   "url": "https://images-assets.nasa.gov/image/PIA05389/PIA05389~orig.jpg",
+   "credit": "NASA/JPL/Space Science Institute",
+   "note": "카시니 사진에서 구름 색을 읽어 띠 무늬로 그린 표면이에요.",
+   "local": "saturn_profile.json",
+   "process": {
+    "kind": "profile"
+   },
+   "status": "confirmed",
+   "bytes": 36983
+  },
+  "uranus_profile": {
+   "title": "Uranus in True and False Color",
+   "nasa_id": "PIA00032",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA00032",
+   "url": "https://images-assets.nasa.gov/image/PIA00032/PIA00032~orig.jpg",
+   "credit": "NASA/JPL",
+   "note": "보이저 2호 사진(1986)의 색을 읽어 은은한 띠 무늬로 그린 표면이에요.",
+   "local": "uranus_profile.json",
+   "process": {
+    "kind": "profile",
+    "crop": "left"
+   },
+   "status": "check-crop",
+   "bytes": 104572
+  },
+  "neptune_profile": {
+   "title": "Voyager 2 Neptune (ARC-1989-AC89-7001)",
+   "nasa_id": "ARC-1989-AC89-7001",
+   "page": "https://images.nasa.gov/details/ARC-1989-AC89-7001",
+   "url": "https://images-assets.nasa.gov/image/ARC-1989-AC89-7001/ARC-1989-AC89-7001~orig.jpg",
+   "credit": "NASA/JPL/Ames Research Center",
+   "note": "보이저 2호 사진(1989)의 색을 읽어 띠 무늬로 그린 표면이에요.",
+   "local": "neptune_profile.json",
+   "process": {
+    "kind": "profile"
+   },
+   "status": "check-image",
+   "bytes": 3665130
+  },
+  "sun_live": {
+   "title": "SDO HMI Intensitygram (colorized), latest",
+   "nasa_id": "SDO-latest",
+   "page": "https://sdo.gsfc.nasa.gov/data/",
+   "url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_HMIIC.jpg",
+   "url_aia171": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0171.jpg",
+   "credit": "NASA/SDO and the HMI/AIA science teams",
+   "note": "태양 활동 관측 위성(SDO)이 방금 찍은 사진이에요. 몇 분마다 새로 올라와요.",
+   "local": null,
+   "process": {
+    "kind": "live"
+   },
+   "status": "confirmed"
+  },
+  "mercury_map": {
+   "title": "Mercury MESSENGER MDIS Basemap MD3 Color Global Mosaic 1024",
+   "nasa_id": "USGS-Astrogeology",
+   "page": "https://astrogeology.usgs.gov/ckan/dataset/fc37692f-e806-4632-b300-0250bb61c3de/resource/b1ef80b6-a44a-4c24-8786-e5e901842657",
+   "url": "https://astrogeology.usgs.gov/ckan/dataset/fc37692f-e806-4632-b300-0250bb61c3de/resource/b1ef80b6-a44a-4c24-8786-e5e901842657/download/mercury_messenger_mdis_basemap_md3color_mosaic_global_1024.jpg",
+   "credit": "NASA/JHUAPL/Carnegie Institution of Washington, USGS Astrogeology",
+   "note": "메신저 MDIS 사진으로 만든 전체 색 지도예요(USGS 공식 가공, 원본 데이터는 NASA). 원본은 성분 차이를 보이려고 색을 강조한 지도라 채도를 30%로 낮춰 보여줘요.",
+   "local": "mercury_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ],
+    "saturation": 0.3
+   },
+   "status": "confirmed",
+   "bytes": 261772
+  },
+  "mars_map": {
+   "title": "Mars Viking MDIM2.1 Colorized Global Mosaic 1024",
+   "nasa_id": "USGS-Astrogeology",
+   "page": "https://astrogeology.usgs.gov/ckan/dataset/7131d503-cdc9-45a5-8f83-5126c0fd397e/resource/6afad901-1caa-48a7-8b62-3911da0004c2",
+   "url": "https://astrogeology.usgs.gov/ckan/dataset/7131d503-cdc9-45a5-8f83-5126c0fd397e/resource/6afad901-1caa-48a7-8b62-3911da0004c2/download/mars_viking_mdim21_clrmosaic_global_1024.jpg",
+   "credit": "NASA/JPL, USGS Astrogeology",
+   "note": "바이킹 궤도선 사진으로 만든 전체 색 지도예요(USGS 공식 가공, 원본 데이터는 NASA).",
+   "local": "mars_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "confirmed",
+   "bytes": 113419
+  },
+  "earth_clouds": {
+   "title": "Blue Marble: Clouds",
+   "nasa_id": "VisibleEarth-57747",
+   "page": "https://visibleearth.nasa.gov/images/57747/blue-marble-clouds",
+   "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+   "credit": "NASA Goddard Space Flight Center (MODIS)",
+   "note": "MODIS 위성 사진으로 만든 지구 구름 지도예요.",
+   "local": "earth_clouds.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "confirmed",
+   "bytes": 829367
+  },
+  "io_map": {
+   "title": "Io Galileo SSI / Voyager Color Merged Global Mosaic 1km (1024 sample)",
+   "nasa_id": "USGS-Astrogeology",
+   "page": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_global_color_merge_mosaic_1km",
+   "url": "https://astrogeology.usgs.gov/ckan/dataset/0fc15885-24ee-4d9d-9666-11de0667c10c/resource/73d4c1f7-8c07-4b28-90ea-f47f7531c5ca/download/full.jpg",
+   "credit": "NASA/JPL/University of Arizona, USGS Astrogeology",
+   "note": "갈릴레오 색 사진을 보이저·갈릴레오 흑백 지도에 입힌 전체 지도예요(USGS 공식 가공, 원본은 NASA).",
+   "local": "sat-501_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     1024,
+     512
+    ]
+   },
+   "status": "check-image",
+   "bytes": 200590,
+   "color": [
+    226,
+    210,
+    140
+   ]
+  },
+  "europa_map": {
+   "title": "Europa Voyager - Galileo SSI Global Mosaic 500m (1024 sample)",
+   "nasa_id": "USGS-Astrogeology",
+   "page": "https://astrogeology.usgs.gov/search/map/europa_voyager_galileo_ssi_global_mosaic_500m",
+   "url": "https://astrogeology.usgs.gov/ckan/dataset/4080036f-afc5-422e-abe9-1c0c8e4f98ea/resource/3647e7b3-425e-4dcf-951b-cc4a22fb0129/download/europa_voyager_galileossi_global_mosaic_500m_1024.jpg",
+   "credit": "NASA/JPL/University of Arizona, USGS Astrogeology",
+   "note": "보이저·갈릴레오 사진으로 만든 흑백 전체 지도에 유로파의 평균 색을 입혔어요(USGS 공식 가공, 원본은 NASA).",
+   "local": "sat-502_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     1024,
+     512
+    ],
+    "tint": [
+     236,
+     222,
+     196
+    ]
+   },
+   "status": "check-image",
+   "bytes": 71532,
+   "color": [
+    220,
+    205,
+    180
+   ]
+  },
+  "ganymede_map": {
+   "title": "Ganymede Voyager / Galileo Simple Cylindrical 2km",
+   "nasa_id": "USGS-Astrogeology",
+   "page": "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_simple_cylindrical",
+   "url": "https://astrogeology.usgs.gov/ckan/dataset/b2d0bf2c-1335-424b-a952-da3d8374723b/resource/040b2daf-62d2-4cbc-be5e-1a2fda0808d5/download/gany_simp_2km.jpg",
+   "credit": "NASA/JPL/Brown University, USGS Astrogeology",
+   "note": "보이저·갈릴레오 사진으로 만든 전체 지도예요(USGS 공식 가공, 원본은 NASA).",
+   "local": "sat-503_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "check-image",
+   "bytes": 16471600,
+   "color": [
+    170,
+    160,
+    150
+   ]
+  },
+  "callisto_map": {
+   "title": "Callisto Galileo/Voyager Global Mosaic 1km (1024 sample)",
+   "nasa_id": "USGS-Astrogeology",
+   "page": "https://astrogeology.usgs.gov/search/map/callisto_galileo_voyager_global_mosaic_1km",
+   "url": "https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/ac628525-cb1c-4742-928b-5a0a60f372cd/download/callisto_voyager_galileossi_global_mosaic_1024.jpg",
+   "credit": "NASA/JPL/DLR, USGS Astrogeology",
+   "note": "보이저·갈릴레오 사진으로 만든 흑백 전체 지도에 칼리스토의 평균 색을 입혔어요(USGS 공식 가공, 원본은 NASA).",
+   "local": "sat-504_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     1024,
+     512
+    ],
+    "tint": [
+     176,
+     160,
+     140
+    ]
+   },
+   "status": "check-image",
+   "bytes": 70116,
+   "color": [
+    140,
+    128,
+    112
+   ]
+  },
+  "mimas_map": {
+   "title": "Mimas Global Map - June 2017",
+   "nasa_id": "PIA17214",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA17214",
+   "url": "https://images-assets.nasa.gov/image/PIA17214/PIA17214~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 근접 통과하며 찍은 사진으로 만든 흑백 전체 지도예요.",
+   "local": "sat-601_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "check-image",
+   "color": [
+    200,
+    200,
+    196
+   ]
+  },
+  "enceladus_map": {
+   "title": "Color Maps of Enceladus - 2014",
+   "nasa_id": "PIA18435",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA18435",
+   "url": "https://images-assets.nasa.gov/image/PIA18435/PIA18435~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 10년 동안 찍은 사진으로 만든 전체 색 지도예요. 자외선·적외선까지 넣어 색을 강조한 지도라 채도를 낮춰 보여줘요.",
+   "local": "sat-602_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ],
+    "saturation": 0.35
+   },
+   "status": "check-image",
+   "bytes": 18921169,
+   "color": [
+    235,
+    238,
+    240
+   ]
+  },
+  "tethys_map": {
+   "title": "Color Maps of Tethys - 2014",
+   "nasa_id": "PIA18439",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA18439",
+   "url": "https://images-assets.nasa.gov/image/PIA18439/PIA18439~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 10년 동안 찍은 사진으로 만든 전체 색 지도예요. 자외선·적외선까지 넣어 색을 강조한 지도라 채도를 낮춰 보여줘요.",
+   "local": "sat-603_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ],
+    "saturation": 0.35
+   },
+   "status": "check-image",
+   "color": [
+    215,
+    215,
+    210
+   ]
+  },
+  "dione_map": {
+   "title": "Color Maps of Dione - 2014",
+   "nasa_id": "PIA18434",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA18434",
+   "url": "https://images-assets.nasa.gov/image/PIA18434/PIA18434~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 10년 동안 찍은 사진으로 만든 전체 색 지도예요. 자외선·적외선까지 넣어 색을 강조한 지도라 채도를 낮춰 보여줘요.",
+   "local": "sat-604_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ],
+    "saturation": 0.35
+   },
+   "status": "check-image",
+   "color": [
+    205,
+    205,
+    200
+   ]
+  },
+  "rhea_map": {
+   "title": "Color Maps of Rhea - 2014",
+   "nasa_id": "PIA18438",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA18438",
+   "url": "https://images-assets.nasa.gov/image/PIA18438/PIA18438~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 10년 동안 찍은 사진으로 만든 전체 색 지도예요. 자외선·적외선까지 넣어 색을 강조한 지도라 채도를 낮춰 보여줘요.",
+   "local": "sat-605_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ],
+    "saturation": 0.35
+   },
+   "status": "check-image",
+   "color": [
+    200,
+    198,
+    192
+   ]
+  },
+  "titan_profile": {
+   "title": "Cassini View of Titan: Natural Color Composite",
+   "nasa_id": "PIA06230",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA06230",
+   "url": "https://images-assets.nasa.gov/image/PIA06230/PIA06230~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니 자연색 사진에서 두꺼운 대기(주황 안개)의 색을 읽어 그린 모습이에요. 눈으로 보면 표면은 안개에 가려 보이지 않아요.",
+   "local": "sat-606_profile.json",
+   "process": {
+    "kind": "profile"
+   },
+   "status": "check-image",
+   "color": [
+    214,
+    160,
+    80
+   ]
+  },
+  "hyperion_photo": {
+   "title": "Hyperion (Cassini)",
+   "nasa_id": "PIA07740",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA07740",
+   "url": "https://images-assets.nasa.gov/image/PIA07740/PIA07740~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 근접 통과하며 찍은 사진이에요. 둥글지 않은 모양이라 3D 구 대신 사진으로 보여줘요.",
+   "local": "sat-607_photo.jpg",
+   "process": {
+    "kind": "photo",
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   "status": "check-image"
+  },
+  "iapetus_map": {
+   "title": "Color Maps of Iapetus - 2014",
+   "nasa_id": "PIA18436",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA18436",
+   "url": "https://images-assets.nasa.gov/image/PIA18436/PIA18436~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Space Science Institute",
+   "note": "카시니가 10년 동안 찍은 사진으로 만든 전체 색 지도예요. 자외선·적외선까지 넣어 색을 강조한 지도라 채도를 낮춰 보여줘요.",
+   "local": "sat-608_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ],
+    "saturation": 0.35
+   },
+   "status": "check-image",
+   "color": [
+    150,
+    135,
+    115
+   ]
+  },
+  "triton_map": {
+   "title": "Map of Triton",
+   "nasa_id": "PIA18668",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA18668",
+   "url": "https://images-assets.nasa.gov/image/PIA18668/PIA18668~orig.jpg",
+   "credit": "NASA/JPL-Caltech/Lunar & Planetary Institute",
+   "note": "보이저 2호 사진(1989)으로 만든 전체 색 지도예요. 보이저가 못 본 북반구 일부는 비어 있어요.",
+   "local": "sat-801_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "check-image",
+   "color": [
+    210,
+    196,
+    186
+   ]
+  },
+  "charon_map": {
+   "title": "Global Map of Pluto Moon Charon",
+   "nasa_id": "PIA19866",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA19866",
+   "url": "https://images-assets.nasa.gov/image/PIA19866/PIA19866~orig.jpg",
+   "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+   "note": "뉴허라이즌스(2015)가 찍은 사진으로 만든 전체 지도예요. 명왕성 반대쪽은 해상도가 낮아요.",
+   "local": "sat-901_map.jpg",
+   "process": {
+    "kind": "map",
+    "size": [
+     2048,
+     1024
+    ]
+   },
+   "status": "check-image",
+   "color": [
+    170,
+    165,
+    160
+   ]
+  },
+  "phobos_photo": {
+   "title": "Phobos from HiRISE",
+   "nasa_id": "PIA10368",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA10368",
+   "url": "https://images-assets.nasa.gov/image/PIA10368/PIA10368~orig.jpg",
+   "credit": "NASA/JPL-Caltech/University of Arizona",
+   "note": "화성 정찰 궤도선(MRO) HiRISE 카메라가 찍은 색 사진이에요. 둥글지 않은 모양이라 3D 구 대신 사진으로 보여줘요.",
+   "local": "sat-401_photo.jpg",
+   "process": {
+    "kind": "photo",
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   "status": "check-image"
+  },
+  "deimos_photo": {
+   "title": "Martian Moon Deimos in High Resolution",
+   "nasa_id": "PIA11826",
+   "page": "https://photojournal.jpl.nasa.gov/catalog/PIA11826",
+   "url": "https://images-assets.nasa.gov/image/PIA11826/PIA11826~orig.jpg",
+   "credit": "NASA/JPL-Caltech/University of Arizona",
+   "note": "화성 정찰 궤도선(MRO) HiRISE 카메라가 찍은 사진이에요. 둥글지 않은 모양이라 3D 구 대신 사진으로 보여줘요.",
+   "local": "sat-402_photo.jpg",
+   "process": {
+    "kind": "photo",
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   "status": "check-image"
+  }
+ },
+ "bodies": {
+  "sun": "sun_live",
+  "moon": "moon_map",
+  "mercury": "mercury_map",
+  "venus": "venus_profile",
+  "mars": "mars_map",
+  "jupiter": "jupiter_map",
+  "saturn": "saturn_profile",
+  "uranus": "uranus_profile",
+  "neptune": "neptune_profile",
+  "pluto": "pluto_map",
+  "earth": "earth_clouds",
+  "sat-401": "phobos_photo",
+  "sat-402": "deimos_photo",
+  "sat-501": "io_map",
+  "sat-502": "europa_map",
+  "sat-503": "ganymede_map",
+  "sat-504": "callisto_map",
+  "sat-601": "mimas_map",
+  "sat-602": "enceladus_map",
+  "sat-603": "tethys_map",
+  "sat-604": "dione_map",
+  "sat-605": "rhea_map",
+  "sat-606": "titan_profile",
+  "sat-607": "hyperion_photo",
+  "sat-608": "iapetus_map",
+  "sat-801": "triton_map",
+  "sat-901": "charon_map"
+ }
+}

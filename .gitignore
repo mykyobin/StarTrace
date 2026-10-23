@@ -1,0 +1,23 @@
+# 비밀
+.env
+
+# 생성물
+backend/chroma/
+backend/data/cache/
+backend/data/raw/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# 편집기·OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+backend/data/*.log
+
+# DSS 별 사진은 저작권자가 사진판마다 달라서 저장소에 올리지 않는다
+backend/data/photos/

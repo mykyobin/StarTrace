@@ -1,0 +1,226 @@
+{
+ "source": "NASA Planetary Fact Sheet (nssdc.gsfc.nasa.gov/planetary/factsheet), 위치·자전축은 astronomy-engine (MIT)",
+ "built": "2026-10-22",
+ "bodies": [
+  {
+   "id": "sun",
+   "name_ko": "태양",
+   "name_en": "Sun",
+   "wiki_ko": "태양",
+   "wiki_en": "Sun",
+   "kind": "sun",
+   "astro": "Sun",
+   "type_ko": "항성 (G2V 주계열성)",
+   "radius_km": 696340,
+   "sun_au": 0,
+   "period_ko": "은하 중심을 약 2억 3천만 년에 한 바퀴",
+   "look_ko": "노란빛으로 보이는 별",
+   "naked": true,
+   "color": [
+    255,
+    236,
+    190
+   ],
+   "rotation_hours": 609.12,
+   "obliquity_deg": 7.25
+  },
+  {
+   "id": "moon",
+   "name_ko": "달",
+   "name_en": "Moon",
+   "wiki_ko": "달",
+   "wiki_en": "Moon",
+   "kind": "moon",
+   "astro": "Moon",
+   "type_ko": "지구의 위성",
+   "radius_km": 1737.4,
+   "sun_au": 1,
+   "period_ko": "지구 둘레를 27.3일에 한 바퀴 (보름달에서 다음 보름달까지는 29.5일)",
+   "look_ko": "밝은 회백색 천체. 위상이 바뀐다",
+   "naked": true,
+   "color": [
+    226,
+    226,
+    216
+   ],
+   "rotation_hours": 655.7,
+   "obliquity_deg": 6.68
+  },
+  {
+   "id": "mercury",
+   "name_ko": "수성",
+   "name_en": "Mercury",
+   "wiki_ko": "수성",
+   "wiki_en": "Mercury (planet)",
+   "kind": "planet",
+   "astro": "Mercury",
+   "type_ko": "지구형 행성",
+   "radius_km": 2439.7,
+   "sun_au": 0.387,
+   "period_ko": "88일",
+   "look_ko": "회색빛 작은 행성. 태양 가까이에서만 보인다",
+   "naked": true,
+   "color": [
+    190,
+    180,
+    170
+   ],
+   "rotation_hours": 1407.6,
+   "obliquity_deg": 0.034
+  },
+  {
+   "id": "venus",
+   "name_ko": "금성",
+   "name_en": "Venus",
+   "wiki_ko": "금성",
+   "wiki_en": "Venus",
+   "kind": "planet",
+   "astro": "Venus",
+   "type_ko": "지구형 행성",
+   "radius_km": 6051.8,
+   "sun_au": 0.723,
+   "period_ko": "224.7일",
+   "look_ko": "하얗고 매우 밝은 행성. 샛별 또는 개밥바라기",
+   "naked": true,
+   "color": [
+    245,
+    225,
+    170
+   ],
+   "rotation_hours": -5832.5,
+   "obliquity_deg": 177.4
+  },
+  {
+   "id": "mars",
+   "name_ko": "화성",
+   "name_en": "Mars",
+   "wiki_ko": "화성",
+   "wiki_en": "Mars",
+   "kind": "planet",
+   "astro": "Mars",
+   "type_ko": "지구형 행성",
+   "radius_km": 3389.5,
+   "sun_au": 1.524,
+   "period_ko": "1.88년",
+   "look_ko": "붉은 행성",
+   "naked": true,
+   "color": [
+    235,
+    130,
+    90
+   ],
+   "rotation_hours": 24.6,
+   "obliquity_deg": 25.19
+  },
+  {
+   "id": "jupiter",
+   "name_ko": "목성",
+   "name_en": "Jupiter",
+   "wiki_ko": "목성",
+   "wiki_en": "Jupiter",
+   "kind": "planet",
+   "astro": "Jupiter",
+   "type_ko": "가스 거대 행성",
+   "radius_km": 69911,
+   "sun_au": 5.203,
+   "period_ko": "11.86년",
+   "look_ko": "크고 밝은 노르스름한 행성",
+   "naked": true,
+   "color": [
+    225,
+    200,
+    160
+   ],
+   "rotation_hours": 9.9,
+   "obliquity_deg": 3.13
+  },
+  {
+   "id": "saturn",
+   "name_ko": "토성",
+   "name_en": "Saturn",
+   "wiki_ko": "토성",
+   "wiki_en": "Saturn",
+   "kind": "planet",
+   "astro": "Saturn",
+   "type_ko": "가스 거대 행성 (고리가 있다)",
+   "radius_km": 58232,
+   "sun_au": 9.537,
+   "period_ko": "29.46년",
+   "look_ko": "연한 황금빛 행성. 망원경으로 고리가 보인다",
+   "naked": true,
+   "color": [
+    235,
+    215,
+    160
+   ],
+   "rotation_hours": 10.7,
+   "obliquity_deg": 26.73
+  },
+  {
+   "id": "uranus",
+   "name_ko": "천왕성",
+   "name_en": "Uranus",
+   "wiki_ko": "천왕성",
+   "wiki_en": "Uranus",
+   "kind": "planet",
+   "astro": "Uranus",
+   "type_ko": "얼음 거대 행성",
+   "radius_km": 25362,
+   "sun_au": 19.19,
+   "period_ko": "84.0년",
+   "look_ko": "청록색 행성. 아주 어두운 하늘에서만 겨우 보인다",
+   "naked": false,
+   "color": [
+    170,
+    225,
+    230
+   ],
+   "rotation_hours": -17.2,
+   "obliquity_deg": 97.77
+  },
+  {
+   "id": "neptune",
+   "name_ko": "해왕성",
+   "name_en": "Neptune",
+   "wiki_ko": "해왕성",
+   "wiki_en": "Neptune",
+   "kind": "planet",
+   "astro": "Neptune",
+   "type_ko": "얼음 거대 행성",
+   "radius_km": 24622,
+   "sun_au": 30.07,
+   "period_ko": "164.8년",
+   "look_ko": "푸른 행성. 맨눈으로는 보이지 않는다",
+   "naked": false,
+   "color": [
+    110,
+    150,
+    245
+   ],
+   "rotation_hours": 16.1,
+   "obliquity_deg": 28.32
+  },
+  {
+   "id": "pluto",
+   "name_ko": "명왕성",
+   "name_en": "Pluto",
+   "wiki_ko": "명왕성",
+   "wiki_en": "Pluto",
+   "kind": "dwarf",
+   "astro": "Pluto",
+   "type_ko": "왜소행성 (카이퍼대 천체)",
+   "radius_km": 1188.3,
+   "sun_au": 39.48,
+   "period_ko": "247.9년",
+   "look_ko": "아주 어두워 큰 망원경이 있어야 보이는 왜소행성",
+   "naked": false,
+   "color": [
+    200,
+    175,
+    150
+   ],
+   "rotation_hours": -153.3,
+   "obliquity_deg": 122.53
+  }
+ ]
+}

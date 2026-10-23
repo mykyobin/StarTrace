@@ -1,0 +1,273 @@
+{
+ "jupiter_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA07782/PIA07782~orig.jpg",
+  "bytes": 446531,
+  "sha256": "337781c2ca209f62b209b34b9a6646f7d3cf30d3d1c8e8a3f9ed13e3554d389f",
+  "fetched": "2026-10-22T02:12:44+00:00",
+  "out": "jupiter_map.jpg",
+  "size": [
+   2047,
+   1024
+  ]
+ },
+ "pluto_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA11707/PIA11707~orig.jpg",
+  "bytes": 1428736,
+  "sha256": "e5a2717a8c8baaa580ab64b87ed5f30a9a1d91456538eb130b8ee6af6163a8e5",
+  "fetched": "2026-10-22T02:12:46+00:00",
+  "out": "pluto_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "moon_map": {
+  "source": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_2k.jpg",
+  "bytes": 457942,
+  "sha256": "f7130a1822681fa7512d7dcfd40db8c10b9ba4f06777910348698260ed7a2170",
+  "fetched": "2026-10-22T02:12:49+00:00",
+  "out": "moon_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "venus_profile": {
+  "source": "https://images-assets.nasa.gov/image/PIA23791/PIA23791~orig.jpg",
+  "bytes": 94315,
+  "sha256": "853268f7922ea572a0966df4a378e6b54221102d6740bdc78f4011708ee71007",
+  "fetched": "2026-10-22T02:12:52+00:00",
+  "out": "venus_profile.json",
+  "size": null
+ },
+ "saturn_profile": {
+  "source": "https://images-assets.nasa.gov/image/PIA05389/PIA05389~orig.jpg",
+  "bytes": 36983,
+  "sha256": "a9f4c997ec0515b022f4208e32053bf7b83985d6dc6306b2a9dfa5a7bbf2ecfc",
+  "fetched": "2026-10-22T02:12:54+00:00",
+  "out": "saturn_profile.json",
+  "size": null
+ },
+ "uranus_profile": {
+  "source": "https://images-assets.nasa.gov/image/PIA00032/PIA00032~orig.jpg",
+  "bytes": 104572,
+  "sha256": "d85efe044e8ee1b13357f2098617821e96cfa36c515656506ac0124bcf5f1e1c",
+  "fetched": "2026-10-22T02:12:56+00:00",
+  "out": "uranus_profile.json",
+  "size": null
+ },
+ "neptune_profile": {
+  "source": "https://images-assets.nasa.gov/image/ARC-1989-AC89-7001/ARC-1989-AC89-7001~orig.jpg",
+  "bytes": 3665130,
+  "sha256": "73d4ab04ac7f0f4dc90c03759f100aa48f2daab210621905101437510b579cbd",
+  "fetched": "2026-10-22T02:13:00+00:00",
+  "out": "neptune_profile.json",
+  "size": null
+ },
+ "mars_map": {
+  "source": "https://astrogeology.usgs.gov/ckan/dataset/7131d503-cdc9-45a5-8f83-5126c0fd397e/resource/6afad901-1caa-48a7-8b62-3911da0004c2/download/mars_viking_mdim21_clrmosaic_global_1024.jpg",
+  "bytes": 113419,
+  "sha256": "33f5c66b0faa0d8ba716bc142822bd94b105bede80de1e152048e70614ba9847",
+  "fetched": "2026-10-22T05:07:46+00:00",
+  "out": "mars_map.jpg",
+  "size": [
+   1024,
+   512
+  ]
+ },
+ "mercury_map": {
+  "source": "https://astrogeology.usgs.gov/ckan/dataset/fc37692f-e806-4632-b300-0250bb61c3de/resource/b1ef80b6-a44a-4c24-8786-e5e901842657/download/mercury_messenger_mdis_basemap_md3color_mosaic_global_1024.jpg",
+  "bytes": 261772,
+  "sha256": "93dc947ace929a880f04e92f146f913a7ead3b1353cc8c4a1d37e36544f94809",
+  "fetched": "2026-10-22T05:08:33+00:00",
+  "out": "mercury_map.jpg",
+  "size": [
+   1024,
+   512
+  ]
+ },
+ "earth_clouds": {
+  "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+  "bytes": 829367,
+  "sha256": "daddaad84d7a33bbbc86cdda3f591099f57cee8607b7bcf3b67eb7e4f7a1c793",
+  "fetched": "2026-10-22T08:31:41+00:00",
+  "out": "earth_clouds.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "io_map": {
+  "source": "https://astrogeology.usgs.gov/ckan/dataset/0fc15885-24ee-4d9d-9666-11de0667c10c/resource/73d4c1f7-8c07-4b28-90ea-f47f7531c5ca/download/full.jpg",
+  "bytes": 200590,
+  "sha256": "d722a545c9290b33f3b57cb7ccb9e173b367a7a8fa4867e74a8e11538f274282",
+  "fetched": "2026-10-22T08:31:43+00:00",
+  "out": "sat-501_map.jpg",
+  "size": [
+   1024,
+   512
+  ]
+ },
+ "europa_map": {
+  "source": "https://astrogeology.usgs.gov/ckan/dataset/4080036f-afc5-422e-abe9-1c0c8e4f98ea/resource/3647e7b3-425e-4dcf-951b-cc4a22fb0129/download/europa_voyager_galileossi_global_mosaic_500m_1024.jpg",
+  "bytes": 71532,
+  "sha256": "96453723e4dd7d7b709cbc097282b9292360908139c72a617b0d26d9ae9ce5f9",
+  "fetched": "2026-10-22T08:31:46+00:00",
+  "out": "sat-502_map.jpg",
+  "size": [
+   1024,
+   512
+  ]
+ },
+ "ganymede_map": {
+  "source": "https://astrogeology.usgs.gov/ckan/dataset/b2d0bf2c-1335-424b-a952-da3d8374723b/resource/040b2daf-62d2-4cbc-be5e-1a2fda0808d5/download/gany_simp_2km.jpg",
+  "bytes": 16471600,
+  "sha256": "797638a166675aa4b93ad2a0186e5cc2132353e37351f42ee1e2e628c3ff2926",
+  "fetched": "2026-10-22T08:31:48+00:00",
+  "out": "sat-503_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "callisto_map": {
+  "source": "https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/ac628525-cb1c-4742-928b-5a0a60f372cd/download/callisto_voyager_galileossi_global_mosaic_1024.jpg",
+  "bytes": 70116,
+  "sha256": "ec3202dca0a0182c885f88f37a6ce484f344785e4c3135fc8c43d53f87e879c7",
+  "fetched": "2026-10-22T08:33:54+00:00",
+  "out": "sat-504_map.jpg",
+  "size": [
+   1024,
+   512
+  ]
+ },
+ "mimas_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA17214/PIA17214~orig.jpg",
+  "bytes": 1605648,
+  "sha256": "f2d62eaa50c7864e303a13434738a7bc6db0e133f1f4b163c2506979800c1116",
+  "fetched": "2026-10-22T08:31:54+00:00",
+  "out": "sat-601_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "enceladus_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA18435/PIA18435~orig.jpg",
+  "bytes": 18921169,
+  "sha256": "92088221bed46c2ef1299699d862fe7fd63e42871f940ec5b109046154d02391",
+  "fetched": "2026-10-22T08:32:00+00:00",
+  "out": "sat-602_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "tethys_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA18439/PIA18439~orig.jpg",
+  "bytes": 10814327,
+  "sha256": "2cba6c201428b2a61e0d33e0825d03822aca149fd4dc7ac77059888b958a37d0",
+  "fetched": "2026-10-22T08:32:04+00:00",
+  "out": "sat-603_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "dione_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA18434/PIA18434~orig.jpg",
+  "bytes": 10260864,
+  "sha256": "603fe933aa43f9b31d5659bd830cca0f2b393c5d93f756ad76208992cfecd597",
+  "fetched": "2026-10-22T08:32:09+00:00",
+  "out": "sat-604_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "rhea_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA18438/PIA18438~orig.jpg",
+  "bytes": 10394426,
+  "sha256": "f5ff45e21b2b737215559943319f2aa67d2557f454b978fb33c007bce7caa005",
+  "fetched": "2026-10-22T08:32:13+00:00",
+  "out": "sat-605_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "titan_profile": {
+  "source": "https://images-assets.nasa.gov/image/PIA06230/PIA06230~orig.jpg",
+  "bytes": 21419,
+  "sha256": "96c7c1f99bb609655014f9586428b20168c5e5825a5db98dedfceb598fb86942",
+  "fetched": "2026-10-22T08:32:15+00:00",
+  "out": "sat-606_profile.json",
+  "size": null
+ },
+ "hyperion_photo": {
+  "source": "https://images-assets.nasa.gov/image/PIA07740/PIA07740~orig.jpg",
+  "bytes": 125864,
+  "sha256": "ae7ce0ebd7b4d32af76e9b2143e5755c6dd7dbecae643dd5ef141d4a9c4da172",
+  "fetched": "2026-10-22T08:32:18+00:00",
+  "out": "sat-607_photo.jpg",
+  "size": [
+   1024,
+   1024
+  ]
+ },
+ "iapetus_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA18436/PIA18436~orig.jpg",
+  "bytes": 4994359,
+  "sha256": "c48c6020f52e385be401ba8758c612322ccc7b205c97ee9ca476fb714ae99584",
+  "fetched": "2026-10-22T08:32:22+00:00",
+  "out": "sat-608_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "triton_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA18668/PIA18668~orig.jpg",
+  "bytes": 4286452,
+  "sha256": "b38960c7eb2a6c97c062eea891838e970de604b2cff8f8c1fa771009e5001cf1",
+  "fetched": "2026-10-22T08:32:26+00:00",
+  "out": "sat-801_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "charon_map": {
+  "source": "https://images-assets.nasa.gov/image/PIA19866/PIA19866~orig.jpg",
+  "bytes": 1156049,
+  "sha256": "c8d0d094b6784ea4829cd7d229ee1fc977e46538b560d9131276202d13f351d3",
+  "fetched": "2026-10-22T08:32:30+00:00",
+  "out": "sat-901_map.jpg",
+  "size": [
+   2048,
+   1024
+  ]
+ },
+ "phobos_photo": {
+  "source": "https://images-assets.nasa.gov/image/PIA10368/PIA10368~orig.jpg",
+  "bytes": 969751,
+  "sha256": "584a4d7cf88b7429f5d1ab975fe2eab31f3e6bb6d15c86141467c429c29ef91e",
+  "fetched": "2026-10-22T08:32:33+00:00",
+  "out": "sat-401_photo.jpg",
+  "size": [
+   1024,
+   1002
+  ]
+ },
+ "deimos_photo": {
+  "source": "https://images-assets.nasa.gov/image/PIA11826/PIA11826~orig.jpg",
+  "bytes": 52680,
+  "sha256": "7b2bb9f3a66f2be4d737e7a811a854a84d018733bd82eb86ba311da52576183f",
+  "fetched": "2026-10-22T08:32:35+00:00",
+  "out": "sat-402_photo.jpg",
+  "size": [
+   1024,
+   525
+  ]
+ }
+}
